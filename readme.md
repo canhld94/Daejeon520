@@ -10,7 +10,7 @@ This dataset is originally used in my master thesis [City-Scale Visual Place Rec
 **Sample images:**  
 <img src="/imgs/samples.jpg" align="center" width="720" />
 
-## About in this repo
+## Files in this repo
 
 - *database.csv*: csv file that describe the database (PanoramaID, Latitude, Longtutide)
 - *query.csv*: csv file that describe the query (PanoramaID, Latitude, Longtutide)
