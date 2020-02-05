@@ -1,10 +1,10 @@
 # About this dataset
 
-We crawl Google Streetview Images within 40km2 of the city to create this dataset. There are total  32,880 panorama images are collected, the distance among neighbor panoramas is varied but on average less than 10m. We split those panorama images into two sets: 500 for query set and the rest for database. For each crawled panorama image, we generate 8 perspective images with the resolution of 640x640. Here we only provide the perspective images (259,040 database images and 4000 queries).
+We crawl Google Streetview Images within 40km2 of the city to create this dataset. There are total  32,880 panorama images are collected, the distance among neighbor panoramas is varied but on average less than 10m. We split those panorama images into two sets: 500 for query set and the rest for database. For each crawled panorama image, we generate 8 perspective images with the resolution of 640x640 each (corresponding to 8 yaw directions 0, 45,…, 315). Here we only provide the perspective images (259,040 database images and 4000 queries).
 
 This dataset is originally used in my master thesis [City-Scale Visual Place Recognition with Deep Local Features Based on Multi-Scale Ordered VLAD Pooling Scheme][thesis] at KAIST
 
-**Map of all panorama collected:** ([you can search for Daejeon on Google Map to verify the map][daejeon].)
+**Map of all panorama collected:** ([Daejeon on Google Map][daejeon])
 <img src="/imgs/map.jpg" align="center" width="500" />
 
 **Sample images:**  
@@ -14,12 +14,12 @@ This dataset is originally used in my master thesis [City-Scale Visual Place Rec
 
 - *database.csv*: csv file that describe the database (PanoramaID, Latitude, Longtutide)
 - *query.csv*: csv file that describe the query (PanoramaID, Latitude, Longtutide)
-- *annotation/*: annotation of the queries. In visual place recognition, we use GPS as the groundtruth location for queries. For each image in the query set, correct locations of the image are all street-view points with the distance to the image’s GPS location less than D meters. This folder includes 6 files (corresponding to D = 10m, 20m, 25m, 30m, 40m, and 50m). Each files has 500 rows with the first column is the query panorama id and the following are correct panorama ids in the database.
+- *annotation*: annotation of the queries. In visual place recognition, we use GPS as the groundtruth location for queries. For each image in the query set, correct locations of the image are all street-view points with the distance to the image’s GPS location less than D meters. This folder includes 6 files (corresponding to D = 10m, 20m, 25m, 30m, 40m, and 50m). Each files has 500 rows with the first column is the query panorama id and the following are correct panorama ids in the database.
 
-## Download links
+## Download links [link][download]
 
-- *daejeon520.tar.gz* (link comming soon): includes all perspective database images. The format of image names is "PanoramaID_X" with X is from 0 to 7 (corresponding to yaws 0,45,...).
-- *daejeon520_query.tar.gz* (link comming soon): includes all perspective query images. The format of image names is "PanoramaID_X" with X is from 0 to 7 (corresponding to yaws 0,45,...).
+- *daejeon520.tar.gz* (17GB): includes all perspective database images. The format of image names is "PanoramaID_X" with X is from 0 to 7 (corresponding to yaws 0,45,...).
+- *daejeon520_query.tar.gz* (261MB): includes all perspective query images. The format of image names is "PanoramaID_X" with X is from 0 to 7 (corresponding to yaws 0,45,...).
 
 ## About me
 
@@ -29,6 +29,4 @@ This dataset is originally used in my master thesis [City-Scale Visual Place Rec
 
 [map]: /imgs/map.jpg
 
-[database]: https://drive.google.com
-
-[query]: https://drive.google.com
+[download]: https://drive.google.com/drive/folders/18s1_saVuMdqcOIWqguWN5rPjdrCJi2mg?usp=sharing
