@@ -10,6 +10,12 @@ This dataset is originally used in my master thesis [City-Scale Visual Place Rec
 **Sample images:**  
 <img src="/imgs/samples.jpg" align="center" width="720" />
 
+**Compare to some other dataset:**  
+*[Pitts250k][netvlad]*  
+<img src="/imgs/map_pitts.jpg" align="center" width="720" />
+
+*[Tokyo247][tokyo247]*
+
 ## Files in this repo
 
 - *database.csv*: csv file that describe the database (PanoramaID, Latitude, Longtutide)
@@ -30,3 +36,9 @@ Currently the dataset is only availble on request, please send me an email to du
 [daejeon]: https://www.google.com/maps/place/Daejeon/@36.3450802,127.3651532,14z/data=!4m5!3m4!1s0x356548d7ba4a6601:0xd196d69d988ad3b5!8m2!3d36.3504119!4d127.3845475
 
 [map]: /imgs/map.jpg
+
+[map_pitts]: /imgs/map_pitts.jpg
+
+[netvlad]: https://www.di.ens.fr/willow/research/netvlad/
+
+[tokyo247]: http://www.ok.ctrl.titech.ac.jp/~torii/project/247/
