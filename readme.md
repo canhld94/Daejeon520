@@ -12,9 +12,10 @@ This dataset is originally used in my master thesis [City-Scale Visual Place Rec
 
 **Compare to some other dataset:**  
 *[Pitts250k][netvlad]*  
-<img src="/imgs/map_pitts.jpg" align="center" width="720" />
+<img src="/imgs/map_pitts.jpg" align="center" width="500" />
 
 *[Tokyo247][tokyo247]*
+<img src="/imgs/map_247.jpg" align="center" width="500" />
 
 ## Files in this repo
 
