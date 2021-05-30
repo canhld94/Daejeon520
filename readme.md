@@ -28,7 +28,7 @@ This dataset is originally used in my master thesis [City-Scale Visual Place Rec
 - *daejeon520.tar.gz* (17GB): includes all perspective database images. The format of image names is "PanoramaID_X" with X is from 0 to 7 (corresponding to yaws 0,45,...).
 - *daejeon520_query.tar.gz* (261MB): includes all perspective query images. The format of image names is "PanoramaID_X" with X is from 0 to 7 (corresponding to yaws 0,45,...).
 
-Currently the dataset is only availble on request, please send me an email to duccanh.ctes@gmail.com
+[Google Drive Link](https://drive.google.com/drive/folders/1MjZcgqC6isgoLkJFPZSfWGpokjJ5wZxq?usp=sharing) 
 
 ## About me
 
