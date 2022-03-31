@@ -4,17 +4,22 @@ We crawl Google Streetview Images within 40km2 of the city to create this datase
 
 This dataset is originally used in my master thesis [City-Scale Visual Place Recognition with Deep Local Features Based on Multi-Scale Ordered VLAD Pooling Scheme][thesis]
 
-**Map of all panorama collected:** ([Daejeon on Google Map][daejeon])
+**Map of all panorama collected:** ([Daejeon on Google Map][daejeon])  
+
 <img src="/imgs/map.jpg" align="center" width="500" />
 
 **Sample images:**  
+
 <img src="/imgs/samples.jpg" align="center" width="720" />
 
 **Compare to some other dataset:**  
+
 *[Pitts250k][netvlad]*  
+
 <img src="/imgs/map_pitts.jpg" align="center" width="500" />
 
 *[Tokyo247][tokyo247]*  
+
 <img src="/imgs/map_247.jpg" align="center" width="500" />
 
 ## Files in this repo
